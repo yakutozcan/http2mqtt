@@ -16,7 +16,7 @@ $ go mod download
 $ go run main.go
 ```
 #### Ekran Görüntüsü
-![http2mqtt](https://raw.githubusercontent.com/yakutozcan/http2mqtt/screen.gif)
+![http2mqtt](https://github.com/yakutozcan/http2mqtt/blob/master/screen.gif?raw=true)
 
 #### Yapılacaklar
  - // todo (:
