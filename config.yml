@@ -1,0 +1,12 @@
+ServerConfig:
+  Port: ":8080"
+  UserName: "yakut"
+  Password: "xD"
+  MessageTimeout: 2000
+  LogLevel: "log.DEBUG"
+
+MqttConfig:
+  BrokerAddress: "tcp://mqtt.eclipse.org:1883"
+  ClientID: "yakut_dell"
+  UserName: ""
+  Password: ""
