@@ -1,4 +1,4 @@
-# 🚀 Go http2mqtt Bridge 🚀 
+# 🚀 Go http2mqtt Bridge 🌉
 ##  Go ile yazılmış http isteklerini mqtt mesajlarına dönüştüren basit bir köprü.
 ---
 [![shields](https://img.shields.io/badge/made%20with-go-blue?logo=go&style=for-the-badge&logoColor=white)](https://golang.org) ![shields](https://img.shields.io/badge/License-GPL-green.svg?logo=read-the-docs&style=for-the-badge&logoColor=white)
