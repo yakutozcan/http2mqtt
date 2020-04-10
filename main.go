@@ -89,11 +89,11 @@ func main() {
 		return false, nil
 	}))
 
-	http2mqtt.PUT("/*", updateMqMessage)
+	http2mqtt.GET("/*", updateMqMessage)
 	http2mqtt.Logger.Fatal(http2mqtt.Start(configuration.ServerConfig.Port))
 }
 
-// e.PUT("/topic/:id", updateMqMessage)
+// e.GET("/topic/:id", updateMqMessage)
 func updateMqMessage(c echo.Context) error {
 	responseTime := time.Now()
 	http2mqtt.Logger.Debug("/get" + c.Request().URL.EscapedPath())
